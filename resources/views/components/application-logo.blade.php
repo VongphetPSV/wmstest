@@ -1,0 +1,1 @@
+<img src="{{ asset('logo/senchanh_logo.png') }}" width="100px" >
