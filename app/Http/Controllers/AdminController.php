@@ -49,7 +49,7 @@ class AdminController extends Controller
         $data->save();
 
         $notification = array(
-            'message' => 'Admin Profile Updated Succesfully',
+            'message' => 'ບັນທຶກຂໍ້ມູນ ບັນຊີຜູ້ໃຊ້ສຳເລັດແລ້ວ',
             'alert-type' => 'success'
         );
 
@@ -84,8 +84,5 @@ class AdminController extends Controller
             session()->flash('message','ລະຫັດຜ່ານເກົ່າບໍ່ຖືກຕ້ອງ');
             return redirect()->back();
         }
-
     }
-
-
 }

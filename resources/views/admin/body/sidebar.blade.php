@@ -10,7 +10,7 @@
          <div id="sidebar-menu">
             <!-- Left Menu Start -->
             <ul class="metismenu list-unstyled" id="side-menu">
-                  <li class="menu-title">Menu</li>
+                  <li class="menu-title"><h5>ຕິດຕັ້ງພື້ນຖານ</h5></li>
 
                   <li>
                      <a href="index.html" class="waves-effect">
@@ -19,52 +19,14 @@
                      </a>
                   </li>
 
-                  <li>
-                     <a href="calendar.html" class=" waves-effect">
-                        <i class="ri-calendar-2-line"></i>
-                        <span>Calendar</span>
-                     </a>
-                  </li>
-      
+
                   <li>
                      <a href="javascript: void(0);" class="has-arrow waves-effect">
-                        <i class="ri-mail-send-line"></i>
-                        <span>Email</span>
+                        <i class="mdi mdi-truck-delivery-outline"></i>
+                        <span>ຜູ້ສະໜອງ</span>
                      </a>
                      <ul class="sub-menu" aria-expanded="false">
-                        <li><a href="email-inbox.html">Inbox</a></li>
-                        <li><a href="email-read.html">Read Email</a></li>
-                     </ul>
-                  </li>
-
-                  <li>
-                     <a href="javascript: void(0);" class="has-arrow waves-effect">
-                        <i class="ri-layout-3-line"></i>
-                        <span>Layouts</span>
-                     </a>
-                     <ul class="sub-menu" aria-expanded="true">
-                        <li>
-                              <a href="javascript: void(0);" class="has-arrow">Vertical</a>
-                              <ul class="sub-menu" aria-expanded="true">
-                                 <li><a href="layouts-dark-sidebar.html">Dark Sidebar</a></li>
-                                 <li><a href="layouts-compact-sidebar.html">Compact Sidebar</a></li>
-                                 <li><a href="layouts-icon-sidebar.html">Icon Sidebar</a></li>
-                                 <li><a href="layouts-boxed.html">Boxed Layout</a></li>
-                                 <li><a href="layouts-preloader.html">Preloader</a></li>
-                                 <li><a href="layouts-colored-sidebar.html">Colored Sidebar</a></li>
-                              </ul>
-                        </li>
-
-                        <li>
-                              <a href="javascript: void(0);" class="has-arrow">Horizontal</a>
-                              <ul class="sub-menu" aria-expanded="true">
-                                 <li><a href="layouts-horizontal.html">Horizontal</a></li>
-                                 <li><a href="layouts-hori-topbar-light.html">Topbar light</a></li>
-                                 <li><a href="layouts-hori-boxed-width.html">Boxed width</a></li>
-                                 <li><a href="layouts-hori-preloader.html">Preloader</a></li>
-                                 <li><a href="layouts-hori-colored-header.html">Colored Header</a></li>
-                              </ul>
-                        </li>
+                        <li><a href="{{ route('supplier.all') }}">ລາຍການຜູ້ສະໜອງ</a></li>
                      </ul>
                   </li>
 
