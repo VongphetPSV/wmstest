@@ -7,12 +7,12 @@
         </x-slot>
 
         <div class="mb-4 text-sm text-gray-600">
-            {{ __('Thanks for signing up! Before getting started, could you verify your email address by clicking on the link we just emailed to you? If you didn\'t receive the email, we will gladly send you another.') }}
+            {{ __('ຂອບໃຈທີ່ລົງທະບຽນຜູ້ໃຊ້ໃໝ່. ການລົງທະບຽນ ຜູ້ໃຊ້ໃໝ່ ຈະຕ້ອງໄດ້ຢັ້ງຢືນ ອີເມວກ່ອນ. ກະລຸນາ ເຂົ້າໄປອີເມວຂອງທ່ານ ແລ້ວກົດລິ້ງ ເພື່ອຢັ້ງຢືນ ແລະ ເຂົ້າໃຊ້ລະບົບ.') }}
         </div>
 
         @if (session('status') == 'verification-link-sent')
             <div class="mb-4 font-medium text-sm text-green-600">
-                {{ __('A new verification link has been sent to the email address you provided during registration.') }}
+                {{ __('ລິ້ງເພື່ອຢັ້ງຢືນ ໄດ້ສົ່ງໄປອີເມວຂອງທ່ານແລ້ວ.') }}
             </div>
         @endif
 
@@ -22,7 +22,7 @@
 
                 <div>
                     <x-button>
-                        {{ __('Resend Verification Email') }}
+                        {{ __('ສົ່ງອີເມວ ລິ້ງຢັ້ງຢືນ ອີກຄັ້ງໜຶ່ງ') }}
                     </x-button>
                 </div>
             </form>
@@ -31,7 +31,7 @@
                 @csrf
 
                 <button type="submit" class="underline text-sm text-gray-600 hover:text-gray-900">
-                    {{ __('Log Out') }}
+                    {{ __('ອອກຈາກລະບົບ') }}
                 </button>
             </form>
         </div>
